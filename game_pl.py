@@ -2,7 +2,7 @@ from tabulate import tabulate
 import emoji
 
 
-# Гемплей
+# Ход игрока
 def game_play(player_name, char, mat_game):
     print(f'Ход игрока {player_name}')
     headers_table = ['GAME ', 'for ', 'YOU ']

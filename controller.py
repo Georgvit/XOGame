@@ -2,7 +2,8 @@ import random
 import game_pl as gp
 import emoji
 
-def game_stert(name_one_player, name_two_player, matrix_game):
+# Гемплэй
+def game_start(name_one_player, name_two_player, matrix_game):
     # Случайный выбор первого хода
     random_move = random.randint(1, 2)
 

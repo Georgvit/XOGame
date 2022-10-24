@@ -1,6 +1,6 @@
 from tabulate import tabulate
-import emoji
 
+# Визуализация программы
 def hello_one():
     # Приветствуем игроков
     print('Приветствую вас в игре крестики нолики!')
